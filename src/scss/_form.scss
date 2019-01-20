@@ -1,0 +1,55 @@
+.form-section {
+    padding-right: 15px;
+    border-right: 2px solid #670000;;
+    display: none;
+    
+  }
+  .parsley-errors-list {
+    margin: 0;
+    color: #b10c0c;
+    padding-right: 19px;
+  } 
+  .form-section.current {
+    display: inherit;
+  }
+  .btn-info, .btn-default {
+    margin-top: 10px;
+  }
+  html.codepen body {
+    margin: 1em;
+  }
+  .form-control{ 
+    display: inline;
+    padding: 2px 12px;
+  }
+  
+  .btn-info,.submit,#contacts button{
+      background: #670000;
+      color: white;
+      border:#670000;
+      &:hover{
+        border-color: #b90404;
+        background: #b90404;
+        border-color: #b90404;
+        color: white;
+      }
+      &:active{
+        border-color: #b90404;
+        background: #b90404;
+        border-color: #b90404;
+        color: white;
+      }
+      &:focus{
+        border-color: #b90404;
+        box-shadow: 0 0 0 0.2rem rgb(138, 3, 3);
+        background: #b90404;
+        color: white;
+      }
+      &:visited{
+        border-color: #b90404;
+        box-shadow: 0 0 0 0.2rem rgb(138, 3, 3);
+        background: #b90404;
+        color: white;
+      }
+  }
+  

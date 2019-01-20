@@ -1,0 +1,86 @@
+.header{
+  li{
+    margin-left: 20px;
+    a{
+        color: #777;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+}
+.top-header a{
+    text-decoration: none;
+    color: #5e636c;
+  }
+  
+  .socials {
+    float: left;
+    margin-left: 20px;
+  
+  .socialmedia-widget {
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+      li{
+        background: none repeat scroll 0 0 transparent;
+        border-left: 1px solid #D9D9D9;
+        float: right;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        width: 30px;
+        a {
+          background: url('../images/icons/social-icons.png') repeat scroll 0 0 transparent;
+          display: block;
+          height: 30px;
+          text-indent: -9999px;
+          width: 30px;
+          
+        }
+      
+        .facebook {
+          background-position: 0 top;
+          &:hover { background-position: 0 bottom; }
+        }
+        .twitter {
+          background-position: -30px top;
+          &:hover { background-position: -30px bottom; }
+        }
+        .youtube {
+          background-position: -390px top;
+          &:hover { background-position: -390px bottom; }
+        }
+        .flickr {
+          background-position: -210px top;
+          &:hover { background-position: -210px bottom; }
+        }
+        .instagram {
+          background-position: -450px top;
+          &:hover { background-position: -450px bottom; }
+        }
+        .googleplus {
+          background-position: -330px top;
+         &:hover { background-position: -330px bottom; }
+  
+        }
+        .linkedin {
+          background-position: -270px top;
+          &hover { background-position: -270px bottom; }
+        }
+        .blog {
+          background-position: -510px top;
+          &:hover { background-position: -510px bottom; }
+        }
+        .support {
+          background-position: -480px top;
+          :hover { background-position: -480px bottom; }
+        }
+        .mail {
+          background-position: -420px top;
+          &:hover { background-position: -420px bottom; }
+        }
+      }
+    }
+  }
+  

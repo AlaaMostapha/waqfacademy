@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Cairo-Regular";
+    src: url("Cairo-Regular.ttf"); }
+  
+  @font-face {
+    font-family: "Cairo-Bold";
+    src: url("Cairo-Bold.ttf");
+    font-weight: bold; }
+  
+  @font-face {
+    font-family: "Cairo-SemiBold";
+    src: url("Cairo-SemiBold.ttf"); }
+  
+    body {
+      font-family: Cairo-Regular; }
+      .header #logo_en{
+        display:none!important;
+      }
+      .header #logo_ar{
+        right:0;
+      }
+      
+      #navbarNavDropdown{
+        margin-right: 21vw;
+      }
+  .header li {
+    margin-left: 20px; }
+    .header li a {
+      color: #777;
+      font-size: 15px;
+      font-weight: 300; }
+  
+  .top-header a {
+    text-decoration: none;
+    color: #5e636c; }
+  
+  .socials {
+    float: left;
+    margin-left: 20px; }
+    .socials .socialmedia-widget {
+      list-style: none outside none;
+      margin: 0;
+      overflow: hidden;
+      padding: 0; }
+      .socials .socialmedia-widget li {
+        background: none repeat scroll 0 0 transparent;
+        border-left: 1px solid #D9D9D9;
+        float: right;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        width: 30px; }
+        .socials .socialmedia-widget li a {
+          background: url("../images/icons/social-icons.png") repeat scroll 0 0 transparent;
+          display: block;
+          height: 30px;
+          text-indent: -9999px;
+          width: 30px; }
+        .socials .socialmedia-widget li .facebook {
+          background-position: 0 top; }
+          .socials .socialmedia-widget li .facebook:hover {
+            background-position: 0 bottom; }
+        .socials .socialmedia-widget li .twitter {
+          background-position: -30px top; }
+          .socials .socialmedia-widget li .twitter:hover {
+            background-position: -30px bottom; }
+        .socials .socialmedia-widget li .youtube {
+          background-position: -390px top; }
+          .socials .socialmedia-widget li .youtube:hover {
+            background-position: -390px bottom; }
+        .socials .socialmedia-widget li .flickr {
+          background-position: -210px top; }
+          .socials .socialmedia-widget li .flickr:hover {
+            background-position: -210px bottom; }
+        .socials .socialmedia-widget li .instagram {
+          background-position: -450px top; }
+          .socials .socialmedia-widget li .instagram:hover {
+            background-position: -450px bottom; }
+        .socials .socialmedia-widget li .googleplus {
+          background-position: -330px top; }
+          .socials .socialmedia-widget li .googleplus:hover {
+            background-position: -330px bottom; }
+        .socials .socialmedia-widget li .linkedin {
+          background-position: -270px top; }
+          .socials .socialmedia-widget li .linkedinhover {
+            background-position: -270px bottom; }
+        .socials .socialmedia-widget li .blog {
+          background-position: -510px top; }
+          .socials .socialmedia-widget li .blog:hover {
+            background-position: -510px bottom; }
+        .socials .socialmedia-widget li .support {
+          background-position: -480px top; }
+          .socials .socialmedia-widget li .support :hover {
+            background-position: -480px bottom; }
+        .socials .socialmedia-widget li .mail {
+          background-position: -420px top; }
+          .socials .socialmedia-widget li .mail:hover {
+            background-position: -420px bottom; }
+table{
+  direction:ltr;
+}
+.navbar-collapse.collapse.in {
+  display: block !important; } 
+.section1,.section2,.section3,.section4,.section5{
+  text-align: right;
+}
+            @media (min-width: 992px) and (max-width: 1260px) {
+                .header #navbarNavDropdown {
+                  margin-right: 17vw !important; }
+                  .header #navbarNavDropdown li {
+                    margin-left: 0 !important; }
+                    .header #navbarNavDropdown li a {
+                      font-size: 14px !important; }
+                .navbar-collapse.collapse {
+                  display: block !important; } }
+              
+              @media (min-width: 767px) and (max-width: 991.98px) {
+                .header #navbarNavDropdown {
+                  margin-right: 17vw !important;
+                  margin-left: 40vw !important; }
+                  .header #navbarNavDropdown li {
+                    margin-left: 0 !important; }
+                    .header #navbarNavDropdown li a {
+                      font-size: 14px !important; } }
+              
+              @media (min-width: 200px) and (max-width: 991.98px) {
+                .navbar-collapse.collapse {
+                  display: none !important; }
+                .header #logo_ar {
+                  width: 25%; }
+                .header .top-header .top-header-right {
+                  justify-content: center;
+                  margin-bottom: 8px; }
+                .header .top-header .top-header-left {
+                  display: flex;
+                  justify-content: center; }
+                #date .month {
+                  padding-left: 15px !important; }
+                #date .year {
+                  padding-right: 15px !important; }
+                .phone .ramzDawla {
+                  padding-left: 15px !important; }
+                .phone .rakam {
+                  padding-right: 15px !important; }
+                .mobileSlider {
+                  display: inline !important; }
+                .desktopSlider {
+                  display: none !important; }
+                .navbar-collapse.collapse.in {
+                  display: block !important; } }
+                  .Elshrootdgress td {
+                    padding-left: .5rem!important;
+                    padding-right: .5rem!important; }
+              @media (max-width: 575.98px) {
+                #contacts .kyfatgdna {
+                  text-align: center; }
+                  #contacts .kyfatgdna dd {
+                    margin: 0; } }
+                
